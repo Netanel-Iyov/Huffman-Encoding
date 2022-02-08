@@ -101,7 +101,7 @@ def Encode(s,CodeDict):                       # code given string with given Dic
         
     return code
     
-inp = "he ties the tether"
+inp = input("Please enter a sting you want to encode : ")
 arr = {i : inp.count(i) for i in set(inp)}
 Table = []
 for key in arr:
